@@ -1,0 +1,44 @@
+.app{
+  width: 500px;
+  margin: 0 auto;
+}
+.todo-template{
+  h1{
+      text-align: center;
+      padding: 10px 0;
+      background-color: skyblue;
+      color: #fff;  
+  }
+}
+.todo-insert{
+  display: flex;
+  justify-content: space-between;
+  input{
+    flex: 1;
+    font-size: 1.5rem;
+    background-color: #222;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    &::placeholder{
+      color: #fff;
+    }
+  }
+  button{
+    background-color: #444;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+}
+.todo-list{
+  li{
+    list-style: none;
+  }
+  label.checked{
+    text-decoration: line-through;
+  }
+}
